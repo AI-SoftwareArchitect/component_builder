@@ -35,13 +35,15 @@ SafeArea(
     ),
   ),
 );
-</td><td>DartComponentBuilder()
+```dart
+DartComponentBuilder()
   .child(const Text('Hello'))
   .wrapSafeArea()
   .wrapExpanded()
   .wrapSingleChildScrollView()
   .build();
-</td></tr></table>This visual nesting forces developers to mentally parse layout structure instead of focusing on intent. ComponentBuilder flips the mental model.💡 Core IdeaInstead of nesting widgets, you progressively wrap a component using a builder-style API.Dartfinal widget = ComponentBuilder()
+```
+</table>This visual nesting forces developers to mentally parse layout structure instead of focusing on intent. ComponentBuilder flips the mental model.💡 Core IdeaInstead of nesting widgets, you progressively wrap a component using a builder-style API.Dartfinal widget = ComponentBuilder()
   .child(const Text('Hello'))
   .wrapSafeArea()
   .wrapExpanded()
