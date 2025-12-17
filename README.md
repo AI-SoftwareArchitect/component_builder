@@ -7,6 +7,10 @@
 [![pub package](https://img.shields.io/pub/v/component_builder.svg?color=blue)](https://pub.dev/packages/component_builder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+**PUB.DEV**: https://pub.dev/packages/component_builder
+```bash
+component_builder: ^0.0.2
+````
 Dramatically reduces widget tree nesting complexity and enables **device-aware rendering** at build time.
 
 [Quick Start](#-core-idea) • [Device-Aware](#-device-aware-rendering-v2-feature) • [Philosophy](#-philosophy)
