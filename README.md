@@ -4,7 +4,7 @@
 
 **A fluent, immutable Component Builder pattern for Flutter.**
 
-![diagram]("diagram.png")
+![Alt Metni](diagram.png)
 
 [![pub package](https://img.shields.io/pub/v/component_builder.svg?color=blue)](https://pub.dev/packages/component_builder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
